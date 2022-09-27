@@ -9,7 +9,7 @@ namespace xadrez_console
         {
             for (int i =0; i<tab.linhas; i++)
             {
-                for(int j=0; j<tab.linhas; j++)
+                for(int j=0; j<tab.colunas; j++)
                 {
                     if (tab.peca(i, j) == null)
                     {
